@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-log10",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Common logarithm (base ten).",
   "license": "Apache-2.0",
   "author": {
