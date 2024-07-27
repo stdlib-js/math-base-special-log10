@@ -63,7 +63,7 @@ The [common logarithm][common-logarithm] (logarithm with base 10) is defined for
 ## Usage
 
 ```javascript
-import log10 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log10@deno/mod.js';
+import log10 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log10@v0.3.0-deno/mod.js';
 ```
 
 #### log10( x )
@@ -107,7 +107,7 @@ var v = log10( -4.0 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
-import log10 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log10@deno/mod.js';
+import log10 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log10@v0.3.0-deno/mod.js';
 
 var x;
 var i;
