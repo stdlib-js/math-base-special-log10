@@ -65,7 +65,7 @@ The [common logarithm][common-logarithm] (logarithm with base 10) is defined for
 To use in Observable,
 
 ```javascript
-log10 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log10@umd/browser.js' )
+log10 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log10@v0.3.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -77,7 +77,7 @@ var log10 = require( 'path/to/vendor/umd/math-base-special-log10/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log10@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log10@v0.3.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -134,7 +134,7 @@ var v = log10( -4.0 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log10@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log10@v0.3.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
