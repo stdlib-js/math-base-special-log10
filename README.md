@@ -63,6 +63,11 @@ The [common logarithm][common-logarithm] (logarithm with base 10) is defined for
 ## Usage
 
 ```javascript
+import log10 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log10@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-log10/tags). For example,
+
+```javascript
 import log10 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log10@v0.3.1-deno/mod.js';
 ```
 
@@ -107,7 +112,7 @@ var v = log10( -4.0 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import log10 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log10@v0.3.1-deno/mod.js';
+import log10 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log10@deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
